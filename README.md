@@ -18,4 +18,7 @@ This app allows users to scrape articles from the Reddit Politics website and cr
 * Request
 * Express-Handlebars
 
+## See live site deployed on heroku:
+https://glacial-caverns-72794.herokuapp.com/
+
 
