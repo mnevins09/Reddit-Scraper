@@ -1,0 +1,110 @@
+/*IMAGES*/
+div#rightsidebar {
+	  background: url("https://tse1.mm.bing.net/th?id=OIP.jUVQMgRuxRmViJY9LE1yTwAAAA&pid=15.1&P=0&w=200&h=187") top right;
+  	background-repeat: repeat-y;
+  	background-size: 200px 150px;
+}
+
+div#leftsidebar {
+	background: url("https://www.globalmbwatch.com/wp-content/uploads/2016/08/democrats-republicans.jpg") top left;
+	background-repeat: repeat-y;
+	background-size: 150px 150px;
+}
+
+div#innerborderleft{
+    background: url("http://islandgear.biz/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/0/4/040w_-_waving_flag.jpg") top left;
+  	background-repeat: no-repeat;
+  	background-size: 178px 150px;
+}
+
+div#innerborderright {
+    background: url("http://islandgear.biz/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/0/4/040w_-_waving_flag.jpg") top right;
+  	background-repeat: no-repeat;
+  	background-size: 175px 150px;
+}
+
+/*HEADER*/
+.header {
+  color: #337ab7;
+  font-weight: bold;
+}
+
+/* BORDERS AROUND ARTICLES */
+.articles,
+.note
+{
+  border: 2px dashed black;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* SIDE BORDERS */
+.container {
+  border-right-color:#101cc2;
+  border-right-width:150px;
+  border-right-style:ridge;
+
+  border-left-color:#101cc2;
+  border-left-width:150px;
+  border-left-style:groove;
+}
+
+/* BUTTON STYLING */
+#home_button,
+#scrape,
+#viewSaved {
+  background: rgb(231, 13, 13);
+  color: white;
+  border-radius: 20%;
+  height: 5%;
+  font-weight: bold;
+  width: 50%
+}
+
+#home_button:hover,
+#scrape:hover,
+#viewSaved:hover {
+  background: #337ab7;
+}
+
+
+#scrape,
+#viewSaved{
+  width: 25%;
+}
+
+#saveArticle,
+.addnote,
+.deleteArticles {
+  background: rgb(231, 13, 13);
+  color: white;
+  border-radius: 20%;
+  height: 5%;
+  font-weight: bold
+}
+
+#saveArticle:hover,
+.addnote:hover,
+.deleteArticles:hover{
+  background:#337ab7
+}
+
+/* NOTE MODAL STYLING */
+#noteInput {
+  width:100%;
+  margin: 0 auto;
+}
+
+.deleteNote,
+#submitNote {
+  float:right;
+  background: rgb(231, 13, 13); 
+  color: white;
+  border-radius: 5px;
+  font-weight: bold
+}
+
+.deleteNote:hover,
+#submitNote:hover {
+  background:#337ab7;
+}
